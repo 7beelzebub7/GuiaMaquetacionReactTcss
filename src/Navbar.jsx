@@ -12,12 +12,18 @@ const [query, setQuery] = useState('');
   const navigate = useNavigate(); // 🧭 Aquí obtenemos la función para redirigir
 
   const sugerencias = [
-    { texto: "Entrevista Einstein", pagina: "./entrevistas/EinsteinE" },
-    { texto: "Documental sobre Isac Newton y la gravedad", pagina: "/cientificos" },
-    { texto: "Documental sobre Nikola Tesla", pagina: "/cientificos" },
-    { texto: "Entrevista Albert Einstein", pagina: "/entrevistas" },
-    { texto: "Entrevista Stephen Hawking", pagina: "/entrevistas" },
-    { texto: "Documental sobre Marie Curie", pagina: "/cientificos" },
+    { texto: "Avances científicos de Albert Einstein", pagina: "/einsteinA" },
+    { texto: "Avances científicos de Nikola Tesla", pagina: "/teslaA" },
+    { texto: "Avances científicos de Stephen Hawking", pagina: "/hawkingA" },
+    { texto: "Albert Einstein", pagina: "/einsteinC" },
+    { texto: "Nikola Tesla", pagina: "/teslaC" },
+    { texto: "Stephen Hawking", pagina: "/hawkingC" },
+    { texto: "Datos curiosos sobre Albert Einstein", pagina: "/einsteinD" },
+    { texto: "Documental sobre Nikola Tesla", pagina: "/teslaE" },
+    { texto: "Datos curiosos sobre Nikola Tesla", pagina: "/teslaD" },
+    { texto: "Entrevista Albert Einstein", pagina: "/einsteinE" },
+    { texto: "Entrevista Stephen Hawking", pagina: "/hawkingE" },
+    { texto: "Datos curiosos sobre Stephen Hawking", pagina: "/hawkingD" },
   ];
 
   const filtradas = sugerencias.filter(item =>

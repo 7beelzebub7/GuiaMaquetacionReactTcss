@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 
 const images = [
-  "/images/einsteinSlider.jpg",
-  "/images/hawkingSlider.avif",
-  "/images/teslaSlider.jpg",
+  "./images/einsteinSlider.jpg",
+  "./images/hawkingSlider.avif",
+  "./images/teslaSlider.jpg",
 ];
 
 function preloadImages(imageArray) {
