@@ -4,7 +4,6 @@ import ReactPlayer from "react-player";
 export default function EinsteinE(){
   return(
     <>
-    <h1>https://www.youtube.com/watch?v=5KMxGqJKYB8</h1>
         <div>
     
           <div className="text-gray-100 m-5">
